@@ -1,1 +1,0 @@
-select * from raw.Darsh_shop.customers
