@@ -3,4 +3,4 @@ select
     first_name,
     last_name
 
-from raw.Darsh_shop.customers
+from {{ source('Darsh_shop', 'customers') }}
